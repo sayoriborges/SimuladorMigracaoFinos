@@ -1,0 +1,6 @@
+﻿  CRocha.cpp
+  CSimuladorParticulas.cpp
+C:\Users\nicholas\Documents\Sayori\vs\SimuladorParticulas\SimuladorParticulas\CSimuladorParticulas.cpp(19,30): warning C4018: '<': incompatibilidade de signed/unsigned
+  main.cpp
+  Gerando Código...
+  SimuladorParticulas.vcxproj -> C:\Users\nicholas\Documents\Sayori\vs\SimuladorParticulas\Debug\SimuladorParticulas.exe
