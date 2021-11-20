@@ -1,12 +1,9 @@
 #include<iostream>
 #include<string>
-#include<math.h>
 
 #include "metodosimpson.cpp"
 #include "CSimuladorParticulas.cpp"
-#include  "CGrid.cpp"
-#include "CRocha.cpp"
-#include "CParticulaFluido.cpp"
+
 using namespace std;
 
 class FuncaoSeno2D : public Funcao2x1 {

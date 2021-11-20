@@ -1,5 +1,5 @@
-#ifndef CROCHA_HPP
-#define CROCHA_HPP
+#ifndef CRocha_HPP
+#define CRocha_HPP
 
 #include <fstream>
 #include <iostream>

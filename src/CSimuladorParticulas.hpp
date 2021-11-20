@@ -1,15 +1,14 @@
 #ifndef CSIMULADORPARTICULAS_HPP
 #define CSIMULADORPARTICULAS_HPP
 
-#include "CGrid.hpp"
-#include "CRocha.hpp"
-#include "CParticulaFluido.hpp"
+#include "CGrid.cpp"
+#include "CRocha.cpp"
+#include "CParticulaFluido.cpp"
 
-#include <math.h>
 #include<vector>
 #include<string>
 #include<iostream>
-
+#include<math.h>
 
 class CSimuladorParticulas : public CParticulaFluido, CRocha {
 private:
@@ -47,5 +46,6 @@ public:
 
 	void saveInFile(std::vector<double> vector1, std::string name_vector1);
 	void saveInFile(std::vector<double> vector1, std::vector<double> vector2, std::string name_vector1, std::string name_vector2);
+
 };
 #endif

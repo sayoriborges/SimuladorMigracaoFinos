@@ -29,7 +29,6 @@ void CSimuladorParticulas::run() {
 	std::cout << "Vetor de tb: " << std::endl;
 	saveInFile(tempo, "tempo");
 	saveInFile(malha, "grid");
-	
 }
 
 /// abaixo estao os calculos do simulador
@@ -142,6 +141,7 @@ void CSimuladorParticulas::saveInFile(std::vector<double> vector1, std::string n
 	outdata.close();
 }
 
+//métodos para criar a pasta e salvar os valores nos arquivos txt. 
 void CSimuladorParticulas::saveInFile(std::vector<double> vector1, std::vector<double> vector2, std::string name_vector1, std::string name_vector2){
 	if (vector1.size() != vector2.size()) {
 		std::cout << "Nao foi possivel salvar os vetores, por terem tamanhos distintos!"<<std::endl;
@@ -162,5 +162,4 @@ void CSimuladorParticulas::print_vector(std::vector<double> vetor) {
 		std::cout << " - " << vetor[i];
 	std::cout << std::endl;
 }
-
 
